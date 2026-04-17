@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.big-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.ahrf {
+  color: black;
+  text-decoration-line: none;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.imgg {
+  max-width: 1120px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.imgg2 {
+  max-width: 1120px;
+  width: 100%;
+  max-height: 570px;
+  height: 100%;
+}
+
+.hamburgbtn {
+  width: 34px;
+  height: 34px;
+  background-image: url("../images/burger.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+}
+
+.pp {
+  opacity: 1;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 140%;
+  letter-spacing: 2%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.box4 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn {
+  max-width: 110px;
+  height: 34px;
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  gap: 10px;
+  opacity: 1;
+  border-radius: 4px;
+  background-color: rgba(255, 200, 0, 1);
+  border: none;
+}
+
+.big-boox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box3 {
+  margin-top: 30px;
+}
+
+.box5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.box67 {
+  width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.immg {
+  max-width: 1200px;
+  max-height: 751.6353px;
+  width: 100%;
+  height: 100%;
+}
+
+.booxx {
+  width: 350px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hoho {
+  max-width: 1120px;
+  width: 100%;
+  margin-top: 50px;
+}
+.nav-list {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.navbar {
+  background: linear-gradient(to top, aqua, white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  transform: translateY(-900px);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: transform 0.6s linear;
+}
+
+.open-navbar {
+  transform: translateY(76px);
+}
+
+.ahrff {
+  text-decoration-line: none;
+  color: black;
+}
+
+@media only screen and (min-width: 760px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(0);
+    position: static;
+    width: auto;
+    height: auto;
+    background: transparent;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .hamburgbtn {
+    display: none;
+  }
+}
+
+// .close-btn {
+//   width: 50px;
+//   padding: 5px 5px;
+//   background-image: url("https://static.thenounproject.com/png/8155285-200.png");
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   border: none;
+//   background-color: white;
+// }
+
+.big-big {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.immggg {
+  max-width: 488px;
+  width: 100%;
+}
+
+.box-min {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 20px 0;
+}
+
+.mini-box {
+  width: 400px;
+}
+
+.boq-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bola-bola2 {
+  max-width: 446px;
+  width: 100%;
+}
+
+.IT1 {
+  width: 335px;
+}
+
+.box-bola67 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.bola67 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.btn6767 {
+  width: 206;
+  height: 34;
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  gap: 10px;
+  angle: 0 deg;
+  opacity: 1;
+  border-radius: 4px;
+  background: rgba(255, 200, 0, 1);
+  border: none;
+}
+
+.images {
+  max-width: 1047px;
+  width: 100%;
+}
